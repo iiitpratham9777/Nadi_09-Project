@@ -1,0 +1,16 @@
+[build-system]
+requires = []
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nadi9-evidence-agent"
+version = "1.0.0"
+description = "Evidence-grounded fictional dialect subtitle decision pipeline"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
