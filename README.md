@@ -95,6 +95,6 @@ I used AI coding assistants as a development partner for scaffolding, implementa
 
 I was especially careful not to use an LLM as the source of truth for Nadi-9 itself. The system's language decisions are tied to evidence, and unsupported suggestions are not presented as facts.
 
-## Current scope
+## Current scope ##
 
 The repository is intentionally compact and focused on the reasoning pipeline. The real assignment evidence pack would allow the same pipeline to work with actual examples, grammar notes, dictionaries, expert notes, audio transcripts and the episode package.
